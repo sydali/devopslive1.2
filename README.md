@@ -18,6 +18,8 @@ CONTAINER ID   IMAGE        COMMAND                  CREATED         STATUS     
 
 ```
 
+![image](https://github.com/sydali/devopslive1.2/assets/449393/53b1fe0f-db9f-486c-84a4-d57fa4b53b2f)
+
 
 
 
