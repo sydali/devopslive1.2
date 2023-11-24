@@ -1,12 +1,11 @@
 from typing import Union
 import uvicorn
- 
 
 from fastapi import FastAPI
-from decouple import Config
+from decouple import Config,RepositoryEnv
 
-config = Config()
-config.read('.env')
+config = Config(RepositoryEnv('.env'))
+
 int_val = config('VAR')
 
 app = FastAPI()
